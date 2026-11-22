@@ -1,9 +1,9 @@
 :root {
     --primary-color: #0D4974;
     --secundary-color: #F7F3EB;
+    --tertiary-color: #ff8d12;
     --font-color: #575756;
     --heading-font: "Times New Roman", "Georgia", serif;
-    --body-font: "Candara", Calibri, Candara, Optima, sans-serif;
 }
 
 * {
@@ -30,7 +30,7 @@ header {
     display: grid;
     grid-template-columns: 1fr 1.5fr;
     align-items: center;
-    border-bottom: 1px solid #ccc;
+    border-bottom: 1px solid var(--font-color);
 }
 
 header img {
@@ -55,20 +55,20 @@ header img {
 
 .navigation a {
     display: block;
-    color: navy;
+    color: var(--primary-color);
     padding: 20px;
     text-decoration: none;
     font-size: 1.2rem;
 }
 
 .navigation a:hover {
-    color: tomato;
+    color: var(--tertiary-color);
     text-decoration: underline;
 }
 
 h1,
 h2 {
-    font-family: var(--heading-font);
+    font-family: "Candara", Calibri, Candara, Optima, sans-serif;
     color: var(--primary-color);
 }
 
@@ -109,7 +109,7 @@ h1 {
     position: absolute;
     bottom: 0px;
     background-color: var(--secundary-color);
-    color: #3d3d3d;
+    color: var(--font-color);
     opacity: 0.7;
 }
 
@@ -162,7 +162,7 @@ footer {
     display: flex;
     justify-content: center;
     margin-top: 32px;
-    border-top: 1px dotted black;
+    border-top: 1px dotted var(--font-color);
 }
 
 footer nav {
