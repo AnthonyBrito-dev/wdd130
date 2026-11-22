@@ -3,7 +3,6 @@
     --secundary-color: #F7F3EB;
     --tertiary-color: #ff8d12;
     --font-color: #575756;
-    --heading-font: "Times New Roman", "Georgia", serif;
 }
 
 * {
@@ -13,7 +12,7 @@
 }
 
 body {
-    font-family: var(--body-font);
+    font-family: "Candara", Calibri, Candara, Optima, sans-serif;
     color: var(--font-color);
 }
 
@@ -37,11 +36,6 @@ header img {
     margin: 0 0.25rem 0 1rem;
     width: 100px;
     height: auto;
-}
-
-#logo {
-    font-size: 2rem;
-    font-family: Acme, Arial, sans-serif;
 }
 
 .navigation {
@@ -68,7 +62,7 @@ header img {
 
 h1,
 h2 {
-    font-family: "Candara", Calibri, Candara, Optima, sans-serif;
+    font-family: "Times New Roman", "Georgia", serif;
     color: var(--primary-color);
 }
 
